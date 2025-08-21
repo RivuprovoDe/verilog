@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 module tb_jk_ff;
   reg j,k,clk,clear;
-  reg q,qbar;
+  wire q,qbar;
   
   jk_ff uut(.j(j),.k(k),.qbar(qbar),.q(q),.clk(clk),.clear(clear));
   
