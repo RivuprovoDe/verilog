@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 module tb_sr_ff;
   reg s,r,clk,clear;
-  reg q,qbar;
+  wire q,qbar;
   
   sr_ff uut(.s(s),.r(r),.qbar(qbar),.q(q),.clk(clk),.clear(clear));
   
