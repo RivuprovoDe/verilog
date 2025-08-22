@@ -1,0 +1,49 @@
+$date
+	Fri Aug 22 15:25:28 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_encoder_8x3 $end
+$scope module uut $end
+$var wire 8 ! in [7:0] $end
+$var reg 3 " out [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx "
+b0 !
+$end
+#2000
+b0 "
+b1 !
+#4000
+b1 "
+b10 !
+#6000
+b10 "
+b100 !
+#8000
+b11 "
+b1000 !
+#10000
+b100 "
+b10000 !
+#12000
+b101 "
+b100000 !
+#14000
+b110 "
+b1000000 !
+#16000
+b111 "
+b10000000 !
+#20000
